@@ -1,9 +1,9 @@
-###Modelo de capas OSI 
+Modelo de capas OSI 
 
-1-Fisico
-2-Enlase 
-3-Red
-4-Transporte
-5-Sesión
-6-Presentación
-7-Aplicación 
+7-Aplicación: envio de mensaje "hola" a travez de whatsapp
+6-Presentación: codificación del mensaje a binario
+5-Sesión: conexion entre el enviador y destinatario 
+4-Transporte: se fragmentan los datos para ser enviados a través de la red por tcp o udp
+3-Red: encargada de llevar los paquetes por los caminos al destino
+2-Enlace: selecciona el formato de los datos de la red
+1-Fisico: cableado mandando bits hacia el destino
